@@ -8,6 +8,9 @@ BASE_DIR = Path(__file__).resolve().parent
 DB_PATH = BASE_DIR / "database.db"
 
 app = Flask(__name__)
+@app.route('/google1ed2104bc4b2e8e0.html')
+def google_verification():
+    return app.send_static_file('google1ed2104bc4b2e8e0.html')
 app.secret_key = secrets.token_hex(32)
 
 
