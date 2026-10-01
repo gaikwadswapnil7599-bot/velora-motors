@@ -1,0 +1,30 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a0f18"/>
+      <stop offset="0.45" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1b2333"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="600" y1="120" x2="1400" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8B36A" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#D8B36A" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1160 180) rotate(141.987) scale(550 420)">
+      <stop stop-color="#F8D995" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#F8D995" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1170" cy="180" r="420" fill="url(#spot)"/>
+  <circle cx="983" cy="260" r="280" fill="url(#glow)"/>
+  <path d="M0 600C170 520 260 500 404 540C520 570 675 660 862 650C1030 640 1158 590 1310 620C1464 655 1557 701 1600 690V900H0V600Z" fill="#0F172A" fill-opacity="0.7"/>
+  <path d="M270 560L420 420H860L1040 520L1200 520L1340 560L1462 620H321L270 560Z" fill="#111827" stroke="#DABA78" stroke-opacity="0.6" stroke-width="4"/>
+  <path d="M370 530L520 440H840L995 520H1220L1310 560H370V530Z" fill="#D1A65A" fill-opacity="0.25"/>
+  <path d="M444 560H1198C1228 560 1258 568 1282 586L1328 620H332L390 585C409 572 425 560 444 560Z" fill="#0B0F15"/>
+  <circle cx="510" cy="660" r="72" fill="#070B11" stroke="#C9AC72" stroke-width="8"/>
+  <circle cx="510" cy="660" r="23" fill="#C9AC72"/>
+  <circle cx="1110" cy="660" r="72" fill="#070B11" stroke="#C9AC72" stroke-width="8"/>
+  <circle cx="1110" cy="660" r="23" fill="#C9AC72"/>
+  <path d="M760 360L892 420H1025L1135 475H1288L1365 430L1440 410V455C1406 489 1328 520 1220 535H710C596 520 520 494 461 455V410L542 400L596 371L760 360Z" fill="#2B2F38" fill-opacity="0.5"/>
+  <path d="M522 435L647 358H840L1013 455H744L522 435Z" fill="#F1E7D0" fill-opacity="0.12"/>
+</svg>
